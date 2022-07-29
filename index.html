@@ -1,83 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Benedikt Mehler</title>
     <link rel="stylesheet" href="./css/styles.css" />
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navigation">
-            <img scr="" alt="homepage icon">
-            <ul class="navlist" role="list">
-                <li class="navListI"> <a href="#intro">About Me</a></li>
-                <li class="navListI"> <a href="#Portfolio">Portfolio</a></li>
-                <li class="navListI"> <a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <nav class="navigation">
+        <img scr="" alt="homepage icon" />
+        <ul class="navlist" role="list">
+          <li class="navListI"><a href="#intro">About Me</a></li>
+          <li class="navListI"><a href="#Portfolio">Portfolio</a></li>
+          <li class="navListI"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <img class="landscape" src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" height="1200px" alt="background image">
-        <h1>Hello, I'm Benedikt</h1>
+      <div class="container">
+        <img
+          class="landscape"
+          src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+          height="1200px"
+        />
+        <div class="imageCentre"><h1>Hello, I'm Benedikt</h1></div>
+      </div>
 
-        <article id="intro">
-            <h2>About me</h2>
-            <p>
-                I am an upcoming Software Engineer specializing in web-development.<br>
-                After working in IT Consulting for more than 4 years I decided to switch my focus and do what I really love:<br> Creating websites and designing apps.
-                <br>
-                <br>
-                Currently I am attending the Web-Development workshop @ <a href="www.neuefische.de">neue Fische Gmbh</a>.
-            </p>
-        </article>
+      <article id="intro">
+        <h2>About me</h2>
+        <p>
+          I am an upcoming Software Engineer specializing in web-development.<br />
+          After working in IT Consulting for more than 4 years I decided to
+          switch my focus and do what I really love:<br />
+          Creating websites and designing apps.
+          <br />
+          <br />
+          Currently I am attending the Web-Development workshop @
+          <a href="www.neuefische.de">neue Fische Gmbh</a>.
+        </p>
+      </article>
 
-        <aritcle id="Portfolio">
-            <h2>Portfolio</h2>
-            <p>Take a look around the work I've done for some of my partners:</p>
-            <table>
-                <tbody>
-                    <tr>
-                       <td><a href="">Partner 1</a></td>
-                       <td><a href="">Partner 2</a></td>
-                    </tr> 
-                    <tr>
-                        <td><a href="">Partner 3</a></td>
-                        <td><a href="">Partner 4</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="">Partner 5</a></td>
-                        <td><a href="">Partner 6</a></td>
-                        
-                    </tr>
-                    </tbody>
-            </table>
-        </aritcle>
+      <aritcle id="Portfolio">
+        <h2>Portfolio</h2>
+        <p>Take a look around the work I've done for some of my partners:</p>
+        <table>
+          <tbody>
+            <tr>
+              <td><a href="">Partner 1</a></td>
+              <td><a href="">Partner 2</a></td>
+            </tr>
+            <tr>
+              <td><a href="">Partner 3</a></td>
+              <td><a href="">Partner 4</a></td>
+            </tr>
+            <tr>
+              <td><a href="">Partner 5</a></td>
+              <td><a href="">Partner 6</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </aritcle>
 
-        <article id="contact">
-            <h2>Contact</h2>
-            <p>Got questions about my work or want to build a better online presence for you or your workplace?
-                <br>
-                Feel free to contact me!
-            </p>
+      <article id="contact">
+        <h2>Contact</h2>
+        <p>
+          Got questions about my work or want to build a better online presence
+          for you or your workplace?
+          <br />
+          Feel free to contact me!
+        </p>
         <form>
-            <fieldset class="fields">
-                <label> Name: <input type="text" name="name" required placeholder="Max"></label>
-                <label> Email: <input type="email" name="email" required placeholder="max@gmail.com"></label>
-                <label> Message: <textarea rows="3" cols="30" name="message" required></textarea></label>
-            </fieldset>
-            <input type="submit"/>
+          <fieldset class="fields">
+            <label>
+              Name: <input type="text" name="name" required placeholder="Max"
+            /></label>
+            <label>
+              Email:
+              <input
+                type="email"
+                name="email"
+                required
+                placeholder="max@gmail.com"
+            /></label>
+            <label>
+              Message:
+              <textarea rows="3" cols="30" name="message" required></textarea>
+            </label>
+          </fieldset>
+          <input type="submit" />
         </form>
-        </article>
+      </article>
     </main>
 
     <footer>
-        <ul>
-            <li>Privacy Policy</li>
-            <li>Legal Notice</li>
-        </ul>
+      <ul>
+        <li>Privacy Policy</li>
+        <li>Legal Notice</li>
+      </ul>
     </footer>
-    
-</body>
+  </body>
 </html>
