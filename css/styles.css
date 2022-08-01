@@ -14,6 +14,10 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
+main {
+  padding-bottom: 2.5rem;
+}
+
 .navigation {
   display: flex;
   background-color: black;
@@ -80,6 +84,7 @@ form {
   width: 60vw;
   margin: 0 auto;
   padding-bottom: 2em;
+  max-width: 40%;
 }
 
 fieldset {
@@ -106,12 +111,14 @@ input[type="submit"] {
   margin: 0em auto;
   height: 2em;
   font-size: 1.1rem;
-  background-color: #d5d5fd;
+  background-color: #bbbbc4;
   border-color: white;
   min-width: 300px;
 }
 
 footer {
+  position: absolute;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.358);
   font-size: small;
 }
