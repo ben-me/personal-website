@@ -1,4 +1,4 @@
-.navigation {
+.navbar {
   display: flex;
   background-color: black;
   justify-content: space-between;
@@ -8,7 +8,7 @@
   width: 100%;
 }
 
-.navlist {
+.navbar__list {
   display: flex;
   gap: 20px;
   list-style: none;
