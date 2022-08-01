@@ -1,0 +1,26 @@
+h2 {
+  text-decoration: underline;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pageblock {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.home {
+  max-height: 2rem;
+}
+
+.socials {
+  height: 50px;
+  width: 50px;
+}

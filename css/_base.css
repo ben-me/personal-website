@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background-color: rgb(22, 22, 22);
+  color: white;
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  padding-bottom: 2.5rem;
+}
+
+footer {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.358);
+  font-size: small;
+  justify-content: space-between;
+  align-items: center;
+}
