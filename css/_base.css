@@ -20,8 +20,12 @@ footer {
   position: absolute;
   display: flex;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.358);
+  background-color: var(--primary);
   font-size: small;
   justify-content: space-between;
   align-items: center;
+}
+
+:root {
+  --primary: rgba(0, 0, 0, 0.358);
 }

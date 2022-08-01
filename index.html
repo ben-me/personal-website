@@ -8,11 +8,11 @@
   </head>
   <body>
     <header>
-      <nav class="navigation">
+      <nav class="navbar">
         <a href="/index.html">
           <img class="home" src="./assets/heim.png" alt="" />
         </a>
-        <ul class="navlist" role="list">
+        <ul class="navbar__list" role="list">
           <li><a href="#intro">About Me</a></li>
           <li><a href="#Portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -21,13 +21,13 @@
     </header>
 
     <main>
-      <div class="container">
-        <div class="hero-text">
+      <div class="hero">
+        <div class="hero__text">
           <h1>Hello, I'm Benedikt</h1>
         </div>
       </div>
 
-      <article class="pageblock">
+      <article class="center">
         <h2>About me</h2>
         <p>
           I am an upcoming Software Engineer specializing in web-development.<br />
@@ -41,11 +41,11 @@
         </p>
       </article>
 
-      <aritcle class="pageblock">
+      <article class="center">
         <h2>Portfolio</h2>
         <p>Take a look around the work I've done for some of my partners:</p>
         <table>
-          <tbody align="center">
+          <tbody>
             <tr>
               <td><a href="">Partner 1</a></td>
               <td><a href="">Partner 2</a></td>
@@ -60,28 +60,23 @@
             </tr>
           </tbody>
         </table>
-      </aritcle>
+      </article>
 
-      <article class="pageblock">
-        <h2>Contact</h2>
-        <p>
-          Got questions about my work or want to build a better online presence
-          for you or your workplace?
-          <br />
-          Feel free to contact me!
-        </p>
-        <form>
+      <section class="contact">
+        <article class="contact__desc center">
+          <h2>Got a question?</h2>
+          <p>
+            Feel free to contact me!
+            <br />
+            Just use this handy form.
+          </p>
+        </article>
+        <form class="contact__form">
           <fieldset class="fields">
-            <label>
-              Name: <input type="text" name="name" required placeholder="Max"
-            /></label>
+            <label> Name: <input type="text" name="name" required /></label>
             <label>
               Email:
-              <input
-                type="email"
-                name="email"
-                required
-                placeholder="...@gmail.com"
+              <input type="email" name="email" required
             /></label>
             <label>
               Message:
@@ -90,7 +85,7 @@
           </fieldset>
           <input type="submit" />
         </form>
-      </article>
+      </section>
     </main>
 
     <footer>
@@ -108,7 +103,7 @@
         <a href="https://www.github.com/ben-me">
           <img src="./assets/github.png" alt="github-profile" class="socials" />
         </a>
-      <div>
+      </div>
     </footer>
   </body>
 </html>

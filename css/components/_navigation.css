@@ -1,6 +1,6 @@
-.navigation {
+.navbar {
   display: flex;
-  background-color: black;
+  background-color: var(--primary);
   justify-content: space-between;
   align-items: center;
   padding: 0 10px;
@@ -8,7 +8,7 @@
   width: 100%;
 }
 
-.navlist {
+.navbar__list {
   display: flex;
   gap: 20px;
   list-style: none;
