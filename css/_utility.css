@@ -24,3 +24,7 @@ a {
   height: 50px;
   width: 50px;
 }
+
+a:hover {
+  color: #0291f7;
+}

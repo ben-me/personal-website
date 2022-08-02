@@ -1,4 +1,5 @@
 .navbar {
+  position: sticky;
   display: flex;
   background-color: var(--primary);
   justify-content: space-between;
